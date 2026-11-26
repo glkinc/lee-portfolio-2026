@@ -1,0 +1,3637 @@
+<svg width="637" height="480" viewBox="0 0 637 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+@keyframes kf_Face_07_top_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  5.95% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  6.9% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_07_top_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  5.952% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  15% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_07_top_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_07_top_a_opacity_0 4.2s linear infinite,
+    kf_Face_07_top_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_07_top_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  5.95% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  6.9% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_07_top_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  5.952% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  15% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_07_top_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_07_top_b_opacity_0 4.2s linear infinite,
+    kf_Face_07_top_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_08_top_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  7.65% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  8.61% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_08_top_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  7.653% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  16.701% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_08_top_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_08_top_a_opacity_0 4.2s linear infinite,
+    kf_Face_08_top_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_08_top_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  7.65% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  8.61% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_08_top_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  7.653% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  16.701% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_08_top_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_08_top_b_opacity_0 4.2s linear infinite,
+    kf_Face_08_top_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_09_right_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  9.35% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  10.31% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_09_right_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  9.354% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  18.401% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_09_right_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_09_right_a_opacity_0 4.2s linear infinite,
+    kf_Face_09_right_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_09_right_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  9.35% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  10.31% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_09_right_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  9.354% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  18.401% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_09_right_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_09_right_b_opacity_0 4.2s linear infinite,
+    kf_Face_09_right_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_10_left_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  11.05% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  12.01% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_10_left_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  11.054% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  20.102% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_10_left_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_10_left_a_opacity_0 4.2s linear infinite,
+    kf_Face_10_left_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_10_left_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  11.05% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  12.01% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_10_left_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  11.054% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  20.102% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_10_left_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_10_left_b_opacity_0 4.2s linear infinite,
+    kf_Face_10_left_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_11_left_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  12.76% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  13.71% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_11_left_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  12.755% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  21.803% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_11_left_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_11_left_a_opacity_0 4.2s linear infinite,
+    kf_Face_11_left_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_11_left_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  12.76% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  13.71% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_11_left_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  12.755% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  21.803% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_11_left_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_11_left_b_opacity_0 4.2s linear infinite,
+    kf_Face_11_left_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_12_right_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  14.46% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  15.41% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_12_right_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  14.456% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  23.503% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_12_right_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_12_right_a_opacity_0 4.2s linear infinite,
+    kf_Face_12_right_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_12_right_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  14.46% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  15.41% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_12_right_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  14.456% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  23.503% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_12_right_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_12_right_b_opacity_0 4.2s linear infinite,
+    kf_Face_12_right_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_13_right_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  16.16% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  17.11% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_13_right_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  16.156% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  25.204% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_13_right_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_13_right_a_opacity_0 4.2s linear infinite,
+    kf_Face_13_right_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_13_right_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  16.16% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  17.11% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_13_right_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  16.156% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  25.204% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_13_right_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_13_right_b_opacity_0 4.2s linear infinite,
+    kf_Face_13_right_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_14_left_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  17.86% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  18.81% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_14_left_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  17.857% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  26.905% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_14_left_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_14_left_a_opacity_0 4.2s linear infinite,
+    kf_Face_14_left_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_14_left_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  17.86% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  18.81% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_14_left_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  17.857% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  26.905% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_14_left_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_14_left_b_opacity_0 4.2s linear infinite,
+    kf_Face_14_left_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_15_left_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  19.56% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  20.51% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_15_left_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  19.558% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  28.605% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_15_left_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_15_left_a_opacity_0 4.2s linear infinite,
+    kf_Face_15_left_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_15_left_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  19.56% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  20.51% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_15_left_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  19.558% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  28.605% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_15_left_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_15_left_b_opacity_0 4.2s linear infinite,
+    kf_Face_15_left_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_16_right_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  21.26% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  22.21% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_16_right_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  21.258% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  30.306% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_16_right_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_16_right_a_opacity_0 4.2s linear infinite,
+    kf_Face_16_right_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_16_right_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  21.26% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  22.21% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_16_right_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  21.258% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  30.306% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_16_right_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_16_right_b_opacity_0 4.2s linear infinite,
+    kf_Face_16_right_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_17_top_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  22.96% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  23.91% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_17_top_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  22.959% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  32.007% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_17_top_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_17_top_a_opacity_0 4.2s linear infinite,
+    kf_Face_17_top_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_17_top_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  22.96% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  23.91% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_17_top_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  22.959% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  32.007% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_17_top_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_17_top_b_opacity_0 4.2s linear infinite,
+    kf_Face_17_top_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_18_top_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  24.66% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  25.61% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_18_top_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  24.66% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  33.707% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_18_top_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_18_top_a_opacity_0 4.2s linear infinite,
+    kf_Face_18_top_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_18_top_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  24.66% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  25.61% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_18_top_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  24.66% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  33.707% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_18_top_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_18_top_b_opacity_0 4.2s linear infinite,
+    kf_Face_18_top_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_19_right_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  26.36% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  27.31% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_19_right_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  26.361% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  35.408% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_19_right_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_19_right_a_opacity_0 4.2s linear infinite,
+    kf_Face_19_right_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_19_right_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  26.36% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  27.31% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_19_right_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  26.361% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  35.408% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_19_right_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_19_right_b_opacity_0 4.2s linear infinite,
+    kf_Face_19_right_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_20_left_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  28.06% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  29.01% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_20_left_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  28.061% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  37.109% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_20_left_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_20_left_a_opacity_0 4.2s linear infinite,
+    kf_Face_20_left_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_20_left_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  28.06% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  29.01% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_20_left_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  28.061% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  37.109% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_20_left_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_20_left_b_opacity_0 4.2s linear infinite,
+    kf_Face_20_left_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_21_top_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  29.76% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  30.71% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_21_top_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  29.762% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  38.81% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_21_top_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_21_top_a_opacity_0 4.2s linear infinite,
+    kf_Face_21_top_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_21_top_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  29.76% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  30.71% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_21_top_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  29.762% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  38.81% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_21_top_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_21_top_b_opacity_0 4.2s linear infinite,
+    kf_Face_21_top_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_22_top_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  31.46% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  32.41% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_22_top_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  31.463% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  40.51% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_22_top_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_22_top_a_opacity_0 4.2s linear infinite,
+    kf_Face_22_top_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_22_top_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  31.46% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  32.41% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_22_top_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  31.463% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  40.51% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_22_top_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_22_top_b_opacity_0 4.2s linear infinite,
+    kf_Face_22_top_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_23_left_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  33.16% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  34.12% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_23_left_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  33.163% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  42.211% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_23_left_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_23_left_a_opacity_0 4.2s linear infinite,
+    kf_Face_23_left_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_23_left_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  33.16% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  34.12% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_23_left_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  33.163% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  42.211% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_23_left_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_23_left_b_opacity_0 4.2s linear infinite,
+    kf_Face_23_left_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_24_right_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  34.86% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  35.82% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_24_right_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  34.864% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  43.912% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_24_right_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_24_right_a_opacity_0 4.2s linear infinite,
+    kf_Face_24_right_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_24_right_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  34.86% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  35.82% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_24_right_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  34.864% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  43.912% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_24_right_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_24_right_b_opacity_0 4.2s linear infinite,
+    kf_Face_24_right_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_25_left_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  36.56% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  37.52% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_25_left_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  36.565% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  45.612% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_25_left_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_25_left_a_opacity_0 4.2s linear infinite,
+    kf_Face_25_left_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_25_left_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  36.56% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  37.52% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_25_left_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  36.565% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  45.612% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_25_left_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_25_left_b_opacity_0 4.2s linear infinite,
+    kf_Face_25_left_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_26_right_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  38.27% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  39.22% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_26_right_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  38.265% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  47.313% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_26_right_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_26_right_a_opacity_0 4.2s linear infinite,
+    kf_Face_26_right_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_26_right_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  38.27% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  39.22% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_26_right_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  38.265% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  47.313% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_26_right_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_26_right_b_opacity_0 4.2s linear infinite,
+    kf_Face_26_right_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_27_top_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  39.97% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  40.92% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_27_top_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  39.966% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  49.014% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_27_top_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_27_top_a_opacity_0 4.2s linear infinite,
+    kf_Face_27_top_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_27_top_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  39.97% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  40.92% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_27_top_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  39.966% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  49.014% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_27_top_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_27_top_b_opacity_0 4.2s linear infinite,
+    kf_Face_27_top_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_28_right_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  41.67% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  42.62% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_28_right_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  41.667% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  50.714% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_28_right_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_28_right_a_opacity_0 4.2s linear infinite,
+    kf_Face_28_right_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_28_right_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  41.67% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  42.62% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_28_right_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  41.667% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  50.714% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_28_right_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_28_right_b_opacity_0 4.2s linear infinite,
+    kf_Face_28_right_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_29_left_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  43.37% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  44.32% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_29_left_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  43.367% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  52.415% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_29_left_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_29_left_a_opacity_0 4.2s linear infinite,
+    kf_Face_29_left_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_29_left_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  43.37% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  44.32% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_29_left_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  43.367% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  52.415% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_29_left_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_29_left_b_opacity_0 4.2s linear infinite,
+    kf_Face_29_left_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_30_top_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  45.07% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  46.02% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_30_top_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  45.068% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  54.116% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_30_top_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_30_top_a_opacity_0 4.2s linear infinite,
+    kf_Face_30_top_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_30_top_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  45.07% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  46.02% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_30_top_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  45.068% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  54.116% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_30_top_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_30_top_b_opacity_0 4.2s linear infinite,
+    kf_Face_30_top_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_31_top_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  46.77% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  47.72% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_31_top_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  46.769% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  55.816% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_31_top_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_31_top_a_opacity_0 4.2s linear infinite,
+    kf_Face_31_top_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_31_top_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  46.77% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  47.72% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_31_top_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  46.769% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  55.816% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_31_top_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_31_top_b_opacity_0 4.2s linear infinite,
+    kf_Face_31_top_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_32_right_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  48.47% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  49.42% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_32_right_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  48.469% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  57.517% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_32_right_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_32_right_a_opacity_0 4.2s linear infinite,
+    kf_Face_32_right_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_32_right_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  48.47% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  49.42% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_32_right_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  48.469% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  57.517% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_32_right_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_32_right_b_opacity_0 4.2s linear infinite,
+    kf_Face_32_right_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_33_left_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  50.17% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  51.12% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_33_left_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  50.17% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  59.218% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_33_left_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_33_left_a_opacity_0 4.2s linear infinite,
+    kf_Face_33_left_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_33_left_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  50.17% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  51.12% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_33_left_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  50.17% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  59.218% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_33_left_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_33_left_b_opacity_0 4.2s linear infinite,
+    kf_Face_33_left_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_34_right_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  51.87% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  52.82% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_34_right_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  51.871% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  60.918% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_34_right_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_34_right_a_opacity_0 4.2s linear infinite,
+    kf_Face_34_right_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_34_right_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  51.87% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  52.82% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_34_right_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  51.871% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  60.918% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_34_right_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_34_right_b_opacity_0 4.2s linear infinite,
+    kf_Face_34_right_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_35_left_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  53.57% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  54.52% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_35_left_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  53.571% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  62.619% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_35_left_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_35_left_a_opacity_0 4.2s linear infinite,
+    kf_Face_35_left_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_35_left_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  53.57% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  54.52% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_35_left_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  53.571% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  62.619% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_35_left_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_35_left_b_opacity_0 4.2s linear infinite,
+    kf_Face_35_left_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_36_right_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  55.27% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  56.22% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_36_right_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  55.272% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  64.32% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_36_right_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_36_right_a_opacity_0 4.2s linear infinite,
+    kf_Face_36_right_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_36_right_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  55.27% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  56.22% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_36_right_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  55.272% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  64.32% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_36_right_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_36_right_b_opacity_0 4.2s linear infinite,
+    kf_Face_36_right_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_37_left_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  56.97% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  57.93% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_37_left_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  56.973% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  66.02% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_37_left_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_37_left_a_opacity_0 4.2s linear infinite,
+    kf_Face_37_left_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_37_left_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  56.97% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  57.93% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_37_left_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  56.973% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  66.02% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_37_left_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_37_left_b_opacity_0 4.2s linear infinite,
+    kf_Face_37_left_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_38_top_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  58.67% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  59.63% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_38_top_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  58.673% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  67.721% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_38_top_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_38_top_a_opacity_0 4.2s linear infinite,
+    kf_Face_38_top_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_38_top_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  58.67% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  59.63% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_38_top_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  58.673% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  67.721% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_38_top_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_38_top_b_opacity_0 4.2s linear infinite,
+    kf_Face_38_top_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_39_top_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  60.37% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  61.33% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_39_top_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  60.374% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  69.422% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_39_top_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_39_top_a_opacity_0 4.2s linear infinite,
+    kf_Face_39_top_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_39_top_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  60.37% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  61.33% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_39_top_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  60.374% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  69.422% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_39_top_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_39_top_b_opacity_0 4.2s linear infinite,
+    kf_Face_39_top_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_40_right_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  62.07% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  63.03% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_40_right_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  62.075% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  71.122% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_40_right_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_40_right_a_opacity_0 4.2s linear infinite,
+    kf_Face_40_right_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_40_right_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  62.07% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  63.03% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_40_right_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  62.075% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  71.122% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_40_right_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_40_right_b_opacity_0 4.2s linear infinite,
+    kf_Face_40_right_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_41_left_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  63.78% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  64.73% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_41_left_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  63.775% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  72.823% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_41_left_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_41_left_a_opacity_0 4.2s linear infinite,
+    kf_Face_41_left_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_41_left_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  63.78% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  64.73% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_41_left_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  63.775% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  72.823% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_41_left_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_41_left_b_opacity_0 4.2s linear infinite,
+    kf_Face_41_left_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_42_top_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  65.48% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  66.43% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_42_top_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  65.476% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  74.524% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_42_top_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_42_top_a_opacity_0 4.2s linear infinite,
+    kf_Face_42_top_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_42_top_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  65.48% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  66.43% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_42_top_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  65.476% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  74.524% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_42_top_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_42_top_b_opacity_0 4.2s linear infinite,
+    kf_Face_42_top_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_43_top_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  67.18% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  68.13% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_43_top_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  67.177% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  76.224% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_43_top_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_43_top_a_opacity_0 4.2s linear infinite,
+    kf_Face_43_top_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_43_top_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  67.18% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  68.13% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_43_top_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  67.177% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  76.224% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_43_top_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_43_top_b_opacity_0 4.2s linear infinite,
+    kf_Face_43_top_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_44_right_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  68.88% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  69.83% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_44_right_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  68.878% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  77.925% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_44_right_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_44_right_a_opacity_0 4.2s linear infinite,
+    kf_Face_44_right_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_44_right_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  68.88% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  69.83% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_44_right_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  68.878% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  77.925% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_44_right_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_44_right_b_opacity_0 4.2s linear infinite,
+    kf_Face_44_right_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_45_left_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  70.58% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  71.53% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_45_left_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  70.578% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  79.626% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_45_left_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_45_left_a_opacity_0 4.2s linear infinite,
+    kf_Face_45_left_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_45_left_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  70.58% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  71.53% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_45_left_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  70.578% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  79.626% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_45_left_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_45_left_b_opacity_0 4.2s linear infinite,
+    kf_Face_45_left_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_46_right_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  72.28% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  73.23% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_46_right_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  72.279% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  81.327% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_46_right_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_46_right_a_opacity_0 4.2s linear infinite,
+    kf_Face_46_right_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_46_right_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  72.28% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  73.23% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_46_right_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  72.279% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  81.327% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_46_right_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_46_right_b_opacity_0 4.2s linear infinite,
+    kf_Face_46_right_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_47_left_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  73.98% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  74.93% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_47_left_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  73.98% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  83.027% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_47_left_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_47_left_a_opacity_0 4.2s linear infinite,
+    kf_Face_47_left_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_47_left_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  73.98% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  74.93% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_47_left_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  73.98% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  83.027% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_47_left_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_47_left_b_opacity_0 4.2s linear infinite,
+    kf_Face_47_left_b_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_48_top_a_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  75.68% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  76.63% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_48_top_a_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  75.68% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  84.728% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_48_top_a {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_48_top_a_opacity_0 4.2s linear infinite,
+    kf_Face_48_top_a_path-trim_0 4.2s linear infinite;
+}
+@keyframes kf_Face_48_top_b_opacity_0 {
+  0% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  75.68% {
+    animation-timing-function: linear;
+    opacity: 0;
+  }
+  76.63% {
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes kf_Face_48_top_b_path-trim_0 {
+  0% {
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  75.68% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 0 1;
+    visibility: hidden;
+  }
+  84.728% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 1 1;
+    visibility: visible;
+  }
+}
+#Face_48_top_b {
+  stroke-dashoffset: 0;
+  animation:
+    kf_Face_48_top_b_opacity_0 4.2s linear infinite,
+    kf_Face_48_top_b_path-trim_0 4.2s linear infinite;
+}
+</style>
+<g id="maker-of-things-thumb" clip-path="url(#clip0_2658_6768)">
+<rect width="636.819" height="480" id="maker-of-things-thumb_bg_0" fill="#FFD500">
+</rect>
+<path id="Face_01_top_a" transform="translate(318.41 240)" d="M0 0L47.8 27.6L0 55.2" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Face_01_top_b" transform="translate(270.61 240)" d="M47.8 55.2L0 27.6L47.8 0" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Face_02_right_a" transform="translate(318.41 184.8)" d="M47.8 27.6L0 55.2V0" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Face_02_right_b" transform="translate(318.41 157.2)" d="M0 27.6L47.8 0V55.2" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Face_03_left_a" transform="translate(270.61 184.8)" d="M0 27.6L47.8 55.2V0" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Face_03_left_b" transform="translate(270.61 157.2)" d="M47.8 27.6L0 0V55.2" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Face_04_right_a" transform="translate(318.41 295.2)" d="M47.8 27.6L0 55.2V0" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Face_04_right_b" transform="translate(318.41 267.6)" d="M0 27.6L47.8 0V55.2" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Face_05_left_a" transform="translate(270.61 295.2)" d="M0 27.6L47.8 55.2V0" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Face_05_left_b" transform="translate(270.61 267.6)" d="M47.8 27.6L0 0V55.2" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Face_06_top_a" transform="translate(318.41 129.6)" d="M0 0L47.8 27.6L0 55.2" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Face_06_top_b" transform="translate(270.61 129.6)" d="M47.8 55.2L0 27.6L47.8 0" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Face_07_top_a" transform="translate(366.21 212.4)" d="M0 0L47.81 27.6L0 55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_07_top_b" transform="translate(318.41 212.4)" d="M47.8 55.2L0 27.6L47.8 0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_08_top_a" transform="translate(270.61 212.4)" d="M0 0L47.8 27.6L0 55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_08_top_b" transform="translate(222.8 212.4)" d="M47.81 55.2L0 27.6L47.81 0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_09_right_a" transform="translate(366.21 267.6)" d="M47.81 27.6L0 55.2V0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_09_right_b" transform="translate(366.21 240)" d="M0 27.6L47.81 0V55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_10_left_a" transform="translate(366.21 184.8)" d="M0 27.6L47.81 55.2V0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_10_left_b" transform="translate(366.21 157.2)" d="M47.81 27.6L0 0V55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_11_left_a" transform="translate(222.8 267.6)" d="M0 27.6L47.81 55.2V0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_11_left_b" transform="translate(222.8 240)" d="M47.81 27.6L0 0V55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_12_right_a" transform="translate(222.8 184.8)" d="M47.81 27.6L0 55.2V0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_12_right_b" transform="translate(222.8 157.2)" d="M0 27.6L47.81 0V55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_13_right_a" transform="translate(175 212.4)" d="M47.8 27.6L0 55.2V0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_13_right_b" transform="translate(175 184.8)" d="M0 27.6L47.8 0V55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_14_left_a" transform="translate(414.02 212.4)" d="M0 27.6L47.8 55.2V0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_14_left_b" transform="translate(414.02 184.8)" d="M47.8 27.6L0 0V55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_15_left_a" transform="translate(366.21 129.6)" d="M0 27.6L47.81 55.2V0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_15_left_b" transform="translate(366.21 102)" d="M47.81 27.6L0 0V55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_16_right_a" transform="translate(222.8 129.6)" d="M47.81 27.6L0 55.2V0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_16_right_b" transform="translate(222.8 102)" d="M0 27.6L47.81 0V55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_17_top_a" transform="translate(366.21 322.8)" d="M0 0L47.81 27.6L0 55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_17_top_b" transform="translate(318.41 322.8)" d="M47.8 55.2L0 27.6L47.8 0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_18_top_a" transform="translate(270.61 322.8)" d="M0 0L47.8 27.6L0 55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_18_top_b" transform="translate(222.8 322.8)" d="M47.81 55.2L0 27.6L47.81 0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_19_right_a" transform="translate(175 267.6)" d="M47.8 27.6L0 55.2V0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_19_right_b" transform="translate(175 240)" d="M0 27.6L47.8 0V55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_20_left_a" transform="translate(414.02 267.6)" d="M0 27.6L47.8 55.2V0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_20_left_b" transform="translate(414.02 240)" d="M47.8 27.6L0 0V55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_21_top_a" transform="translate(414.02 295.2)" d="M0 0L47.8 27.6L0 55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_21_top_b" transform="translate(366.21 295.2)" d="M47.81 55.2L0 27.6L47.81 0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_22_top_a" transform="translate(222.8 295.2)" d="M0 0L47.81 27.6L0 55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_22_top_b" transform="translate(175 295.2)" d="M47.8 55.2L0 27.6L47.8 0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_23_left_a" transform="translate(318.41 102)" d="M0 27.6L47.8 55.2V0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_23_left_b" transform="translate(318.41 74.4)" d="M47.8 27.6L0 0V55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_24_right_a" transform="translate(270.61 102)" d="M47.8 27.6L0 55.2V0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_24_right_b" transform="translate(270.61 74.4)" d="M0 27.6L47.8 0V55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_25_left_a" transform="translate(414.02 157.2)" d="M0 27.6L47.8 55.2V0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_25_left_b" transform="translate(414.02 129.6)" d="M47.8 27.6L0 0V55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_26_right_a" transform="translate(175 157.2)" d="M47.8 27.6L0 55.2V0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_26_right_b" transform="translate(175 129.6)" d="M0 27.6L47.8 0V55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_27_top_a" transform="translate(318.41 350.4)" d="M0 0L47.8 27.6L0 55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_27_top_b" transform="translate(270.61 350.4)" d="M47.8 55.2L0 27.6L47.8 0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_28_right_a" transform="translate(461.82 212.4)" d="M47.8 27.6L0 55.2V0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_28_right_b" transform="translate(461.82 184.8)" d="M0 27.6L47.8 0V55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_29_left_a" transform="translate(127.2 212.4)" d="M0 27.6L47.8 55.2V0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_29_left_b" transform="translate(127.2 184.8)" d="M47.8 27.6L0 0V55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_30_top_a" transform="translate(414.02 74.4)" d="M0 0L47.8 27.6L0 55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_30_top_b" transform="translate(366.21 74.4)" d="M47.81 55.2L0 27.6L47.81 0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_31_top_a" transform="translate(222.8 74.4)" d="M0 0L47.81 27.6L0 55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_31_top_b" transform="translate(175 74.4)" d="M47.8 55.2L0 27.6L47.8 0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_32_right_a" transform="translate(366.21 378)" d="M47.81 27.6L0 55.2V0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_32_right_b" transform="translate(366.21 350.4)" d="M0 27.6L47.81 0V55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_33_left_a" transform="translate(222.8 378)" d="M0 27.6L47.81 55.2V0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_33_left_b" transform="translate(222.8 350.4)" d="M47.81 27.6L0 0V55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_34_right_a" transform="translate(461.82 267.6)" d="M47.8 27.6L0 55.2V0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_34_right_b" transform="translate(461.82 240)" d="M0 27.6L47.8 0V55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_35_left_a" transform="translate(127.2 267.6)" d="M0 27.6L47.8 55.2V0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_35_left_b" transform="translate(127.2 240)" d="M47.8 27.6L0 0V55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_36_right_a" transform="translate(414.02 350.4)" d="M47.8 27.6L0 55.2V0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_36_right_b" transform="translate(414.02 322.8)" d="M0 27.6L47.8 0V55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_37_left_a" transform="translate(175 350.4)" d="M0 27.6L47.8 55.2V0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_37_left_b" transform="translate(175 322.8)" d="M47.8 27.6L0 0V55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_38_top_a" transform="translate(366.21 46.8)" d="M0 0L47.81 27.6L0 55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_38_top_b" transform="translate(318.41 46.8)" d="M47.8 55.2L0 27.6L47.8 0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_39_top_a" transform="translate(270.61 46.8)" d="M0 0L47.8 27.6L0 55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_39_top_b" transform="translate(222.8 46.8)" d="M47.81 55.2L0 27.6L47.81 0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_40_right_a" transform="translate(461.82 157.2)" d="M47.8 27.6L0 55.2V0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_40_right_b" transform="translate(461.82 129.6)" d="M0 27.6L47.8 0V55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_41_left_a" transform="translate(127.2 157.2)" d="M0 27.6L47.8 55.2V0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_41_left_b" transform="translate(127.2 129.6)" d="M47.8 27.6L0 0V55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_42_top_a" transform="translate(461.82 102)" d="M0 0L47.8 27.6L0 55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_42_top_b" transform="translate(414.02 102)" d="M47.8 55.2L0 27.6L47.8 0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_43_top_a" transform="translate(175 102)" d="M0 0L47.8 27.6L0 55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_43_top_b" transform="translate(127.2 102)" d="M47.8 55.2L0 27.6L47.8 0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_44_right_a" transform="translate(318.41 405.6)" d="M47.8 27.6L0 55.2V0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_44_right_b" transform="translate(318.41 378)" d="M0 27.6L47.8 0V55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_45_left_a" transform="translate(270.61 405.6)" d="M0 27.6L47.8 55.2V0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_45_left_b" transform="translate(270.61 378)" d="M47.8 27.6L0 0V55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_46_right_a" transform="translate(461.82 322.8)" d="M47.8 27.6L0 55.2V0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_46_right_b" transform="translate(461.82 295.2)" d="M0 27.6L47.8 0V55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_47_left_a" transform="translate(127.2 322.8)" d="M0 27.6L47.8 55.2V0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_47_left_b" transform="translate(127.2 295.2)" d="M47.8 27.6L0 0V55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_48_top_a" transform="translate(318.41 19.2)" d="M0 0L47.8 27.6L0 55.2" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="Face_48_top_b" transform="translate(270.61 19.2)" d="M47.8 55.2L0 27.6L47.8 0" pathLength="1" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+</g>
+<defs>
+<clipPath id="clip0_2658_6768">
+<rect width="636.819" height="480" fill="white"/>
+</clipPath>
+</defs>
+</svg>

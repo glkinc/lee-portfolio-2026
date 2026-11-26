@@ -1,0 +1,303 @@
+@import "tailwindcss";
+
+/*
+ * Design tokens — mirrored from the Figma variable collections
+ * (Primitives, Responsive, Theme, Tile Fill, Tile Background).
+ * Spacing ("sizing/*") and radius tokens match Tailwind's defaults
+ * (4px spacing base, radius-xs…3xl, rounded-full), so the stock scale is used.
+ * `static` keeps every token emitted as a CSS variable — tiles read their
+ * colours from these at runtime.
+ */
+@theme static {
+  /* Reset Tailwind's palette so only the design-system colours exist. */
+  --color-*: initial;
+
+  /* ── Primitives ─────────────────────────────────────────── */
+  --color-transparent: transparent;
+  --color-grey-0: #ffffff;
+  --color-grey-100: #e6e6e6;
+  --color-grey-200: #cecece;
+  --color-grey-300: #b1b1b1;
+  --color-grey-400: #929292;
+  --color-grey-500: #727272;
+  --color-grey-600: #555555;
+  --color-grey-700: #3b3b3b;
+  --color-grey-800: #242424;
+  --color-grey-900: #171717;
+
+  --color-red-100: #fcd2cb;
+  --color-red-200: #f5b0a6;
+  --color-red-300: #ef8c7f;
+  --color-red-400: #e86456;
+  --color-red-500: #df2c25;
+  --color-red-600: #b71a16;
+  --color-red-700: #900507;
+  --color-red-800: #680203;
+  --color-red-900: #430001;
+
+  --color-blue-100: #c8dcf6;
+  --color-blue-200: #a0c0eb;
+  --color-blue-300: #76a4e2;
+  --color-blue-400: #4888da;
+  --color-blue-500: #006ad3;
+  --color-blue-600: #0156ab;
+  --color-blue-700: #004386;
+  --color-blue-800: #013062;
+  --color-blue-900: #001f42;
+
+  --color-yellow-100: #f4ebd0;
+  --color-yellow-200: #f0deb2;
+  --color-yellow-300: #edd18e;
+  --color-yellow-400: #ecc364;
+  --color-yellow-500: #ecb320;
+  --color-yellow-600: #c58906;
+  --color-yellow-700: #9c6303;
+  --color-yellow-800: #724001;
+  --color-yellow-900: #482201;
+
+  /* ── Theme (semantic roles) ─────────────────────────────── */
+  --color-text-primary: var(--color-grey-900);
+  --color-text-secondary: var(--color-grey-700);
+  --color-text-muted-dark: var(--color-grey-500);
+  --color-text-muted-light: var(--color-grey-300);
+  --color-text-inverse: var(--color-grey-0);
+  --color-text-accent: var(--color-red-500);
+  --color-text-interactive: var(--color-blue-500);
+
+  --color-bg-page: var(--color-grey-0);
+  --color-bg-subtle: var(--color-grey-100);
+  --color-bg-inverse: var(--color-grey-900);
+  --color-bg-dark: var(--color-grey-800);
+
+  --color-border-default: var(--color-grey-300);
+  --color-border-strong: var(--color-grey-900);
+  --color-focus-ring: var(--color-blue-500);
+
+  --color-button-primary-bg: var(--color-grey-900);
+  --color-button-primary-bg-hover: var(--color-grey-700);
+  --color-button-primary-bg-active: var(--color-grey-800);
+  --color-button-primary-bg-disabled: var(--color-grey-200);
+  --color-button-primary-text: var(--color-grey-0);
+  --color-button-primary-text-disabled: var(--color-grey-500);
+
+  --color-button-secondary-bg: var(--color-transparent);
+  --color-button-secondary-bg-hover: var(--color-grey-100);
+  --color-button-secondary-bg-active: var(--color-grey-200);
+  --color-button-secondary-text: var(--color-grey-900);
+  --color-button-secondary-border: var(--color-grey-900);
+
+  --color-button-tertiary-text: var(--color-grey-900);
+  --color-button-tertiary-text-hover: var(--color-grey-600);
+
+  /* ── Tile Fill / Tile Background modes ─────────────────── */
+  --color-tile-red: var(--color-red-500);
+  --color-tile-blue: var(--color-blue-500);
+  --color-tile-yellow: var(--color-yellow-500);
+  --color-tile-dark: var(--color-grey-900);
+  --color-tile-white: var(--color-grey-0);
+
+  /* ── Typography families / weights ─────────────────────── */
+  --font-heading: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Google Sans Flex", "Google Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-label: "Google Sans Flex", "Google Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+
+  /* Motion */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Floating navigation (Figma: drop shadow 0 0 4 25%) */
+  --shadow-nav: 0 0 4px rgb(0 0 0 / 0.25);
+}
+
+/*
+ * Responsive typography — the Figma "Responsive" collection has four modes:
+ * Mobile (<768), Tablet (768), Laptop (1024), Desktop (1280).
+ */
+:root {
+  /* The nav floats, so nothing reserves space for it. */
+  --header-h: 0px;
+  --gutter: 24px;
+
+  --heading-xl-size: 48px;  --heading-xl-lh: 56px;
+  --heading-lg-size: 30px;  --heading-lg-lh: 36px;
+  --heading-md-size: 24px;  --heading-md-lh: 32px;
+  --heading-sm-size: 20px;  --heading-sm-lh: 28px;
+  --heading-xs-size: 18px;  --heading-xs-lh: 28px;
+  --body-xl-size: 16px;     --body-xl-lh: 24px;
+  --body-lg-size: 16px;     --body-lg-lh: 24px;
+  --body-md-size: 16px;     --body-md-lh: 24px;
+  --body-sm-size: 12px;     --body-sm-lh: 20px;
+  --label-md-size: 16px;    --label-md-lh: 24px;
+}
+
+@media (width >= 768px) {
+  :root {
+    --heading-lg-size: 36px;  --heading-lg-lh: 40px;
+    --heading-md-size: 30px;  --heading-md-lh: 36px;
+  }
+}
+
+@media (width >= 1024px) {
+  :root {
+    --heading-xl-size: 60px;  --heading-xl-lh: 64px;
+    --heading-lg-size: 48px;  --heading-lg-lh: 56px;
+    --heading-md-size: 30px;  --heading-md-lh: 36px;
+    --heading-sm-size: 24px;  --heading-sm-lh: 32px;
+    --heading-xs-size: 20px;  --heading-xs-lh: 28px;
+    --body-xl-size: 24px;     --body-xl-lh: 32px;
+    --body-lg-size: 20px;     --body-lg-lh: 32px;
+  }
+}
+
+@media (width >= 1280px) {
+  :root {
+    --heading-xl-size: 96px;  --heading-xl-lh: 96px;
+    --heading-md-size: 36px;  --heading-md-lh: 40px;
+    --body-xl-lh: 36px;
+  }
+}
+
+/* Type-scale utilities — named after the Figma text styles. */
+@utility heading-xl {
+  font-family: var(--font-heading);
+  font-weight: var(--font-weight-extrabold);
+  font-size: var(--heading-xl-size);
+  line-height: var(--heading-xl-lh);
+}
+@utility heading-lg {
+  font-family: var(--font-heading);
+  font-weight: var(--font-weight-extrabold);
+  font-size: var(--heading-lg-size);
+  line-height: var(--heading-lg-lh);
+}
+@utility heading-md {
+  font-family: var(--font-heading);
+  font-weight: var(--font-weight-extrabold);
+  font-size: var(--heading-md-size);
+  line-height: var(--heading-md-lh);
+}
+@utility heading-sm {
+  font-family: var(--font-heading);
+  font-weight: var(--font-weight-extrabold);
+  font-size: var(--heading-sm-size);
+  line-height: var(--heading-sm-lh);
+}
+@utility heading-xs {
+  font-family: var(--font-heading);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--heading-xs-size);
+  line-height: var(--heading-xs-lh);
+}
+@utility body-xl {
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--body-xl-size);
+  line-height: var(--body-xl-lh);
+}
+@utility body-lg {
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--body-lg-size);
+  line-height: var(--body-lg-lh);
+}
+@utility body-md {
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--body-md-size);
+  line-height: var(--body-md-lh);
+}
+@utility body-sm {
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--body-sm-size);
+  line-height: var(--body-sm-lh);
+}
+/* Category pill label: Google Sans (falls back to the body font). */
+@utility font-pill {
+  font-family: "Google Sans", var(--font-body);
+}
+@utility label-md {
+  font-family: var(--font-label);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--label-md-size);
+  line-height: var(--label-md-lh);
+}
+
+/* Size of one Bauhaus tile: the 1280 layout grid is 16 tiles wide. */
+@utility tile-grid {
+  container-type: inline-size;
+  --tile: calc(100cqw / 16);
+}
+
+/* Hero background grid: 1px lines one tile apart, aligned to the hero's 16 × 10 tile grid.
+   Sits inside the grid container (so 100cqw is the grid width) and extends a
+   full viewport each side plus the section's 3rem vertical padding. */
+@utility hero-grid-lines {
+  --cell: calc(100cqw / 16);
+  inset: -3rem -100vw;
+  background-image:
+    linear-gradient(to right, var(--color-grey-100) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--color-grey-100) 1px, transparent 1px);
+  background-size: var(--cell) var(--cell);
+  background-position: 100vw 3rem;
+}
+
+@layer base {
+  html {
+    scroll-behavior: auto;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background-color: var(--color-bg-page);
+    color: var(--color-text-primary);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  [id] {
+    scroll-margin-top: var(--header-h);
+  }
+  /* Every interactive element gets the pointer cursor (Tailwind's preflight resets buttons to default). */
+  a[href],
+  button:not(:disabled),
+  [role="button"],
+  [role="radio"],
+  [role="tab"],
+  summary,
+  label[for],
+  select {
+    cursor: pointer;
+  }
+  :focus-visible {
+    outline: 3px solid var(--color-focus-ring);
+    outline-offset: 3px;
+  }
+  ::selection {
+    background-color: var(--color-yellow-500);
+    color: var(--color-grey-900);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+}
+
+/* Tile colour/shape changes cross-fade instead of snapping. */
+.bauhaus-tile path,
+.bauhaus-tile rect {
+  transition: fill 0.35s ease;
+}
+.bauhaus-tile--instant path,
+.bauhaus-tile--instant rect {
+  transition: none;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
