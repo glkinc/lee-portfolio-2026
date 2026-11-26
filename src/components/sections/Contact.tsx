@@ -1,7 +1,8 @@
-import { useInView, useReducedMotion } from "motion/react";
 import { useEffect, useRef, useState } from "react";
 import { Button } from "../ui/Button";
 import { TileCluster } from "../bauhaus/TileCluster";
+import { useBuildOnView } from "../bauhaus/BuildOnView";
+import type { PlacedTile } from "../bauhaus/shapes";
 import { footerTiles } from "../../data/tiles";
 import { site } from "../../data/site";
 import linkedinIcon from "../../assets/icons/linkedin.svg";
@@ -15,40 +16,37 @@ const socials = [
   { href: site.social.dribbble, label: "Lee Travaglini on Dribbble", icon: dribbbleIcon, size: 48 },
 ];
 
-const grow = { type: "spring", stiffness: 190, damping: 17 } as const;
+/**
+ * "Sketch to build" timing for the plant, bottom-up: each row starts after the
+ * one below it, the left tile a beat ahead of the right.
+ */
+const ROW_STAGGER_MS = 200;
+const COL_STAGGER_MS = 90;
+const plantRows = Math.max(...footerTiles.map((t) => t.row)) + 1;
+const buildDelay = ({ col, row }: PlacedTile) => (plantRows - 1 - row) * ROW_STAGGER_MS + col * COL_STAGGER_MS;
 
 /**
- * Contact / footer. The leaf tiles grow upward like a plant once they're on
- * screen: always bottom row first, and cleared again when you leave so it
- * regrows from the bottom on return. Grey on desktop, white on phones.
+ * Contact / footer. The leaf "plant" builds from wireframe to solid tiles,
+ * bottom row first, once it's on screen; it drops back to the wireframe when
+ * you leave so it rebuilds on return. Grey with a faint tile grid on desktop,
+ * white on phones.
  */
 export function Contact() {
   const plantRef = useRef<HTMLDivElement>(null);
-  // Not `once`: the plant is cleared when you leave and grows again, bottom row first, when you return.
-  const inView = useInView(plantRef, { once: false, amount: 0.6 });
-  const reduce = useReducedMotion();
+  // Builds each time the plant comes into view; back to the wireframe once it's fully off screen.
+  const buildKey = useBuildOnView(plantRef);
   // Year is rendered at build time; refresh on the client so it's always current.
   const [year, setYear] = useState(() => new Date().getFullYear());
   useEffect(() => setYear(new Date().getFullYear()), []);
 
-  // Rows sprout from the bottom (row 3) up to the top (row 0).
-  const sprout = (row: number, col: number) => {
-    if (reduce) return {};
-    const order = 3 - row;
-    return {
-      initial: { scale: 0, opacity: 0 },
-      animate: inView
-        ? { scale: 1, opacity: 1, transition: { ...grow, delay: 0.15 + order * 0.28 + col * 0.08 } }
-        : { scale: 0, opacity: 0, transition: { duration: 0 } },
-      style: { transformOrigin: col === 0 ? "100% 100%" : "0% 100%" },
-    };
-  };
-
   return (
-    <footer id="contact" aria-labelledby="contact-title" className="bg-bg-page lg:bg-bg-subtle">
+    <footer id="contact" aria-labelledby="contact-title" className="overflow-clip bg-bg-page lg:bg-bg-subtle">
       <div className="tile-grid mx-auto flex w-full max-w-[1328px] flex-col gap-12 px-6 pt-12 pb-6 lg:pt-20 lg:pb-12">
         {/* Heading + email, socials, and the plant. Phones: socials sit beside the plant. */}
-        <div className="grid grid-cols-[1fr_auto] gap-x-6 gap-y-6 lg:min-h-[calc(var(--tile)*4)] lg:grid-rows-[1fr_auto]">
+        <div className="grid grid-cols-[1fr_auto] gap-x-6 gap-y-6 lg:relative lg:isolate lg:min-h-[calc(var(--tile)*4)] lg:grid-rows-[1fr_auto]">
+          {/* Desktop: faint tile grid behind the footer, lined up with the plant. */}
+          <div aria-hidden="true" className="footer-grid-lines pointer-events-none absolute -z-10 hidden lg:block" />
+
           <div className="col-span-2 flex flex-col gap-6 lg:col-span-1 lg:row-start-1">
             <h2 id="contact-title" className="heading-lg max-w-[607px]">
               Have an idea?
@@ -80,7 +78,11 @@ export function Contact() {
             ref={plantRef}
             className="col-start-2 row-start-2 self-end [--footer-tile:51px] lg:row-span-2 lg:row-start-1 lg:[--footer-tile:var(--tile)]"
           >
-            <TileCluster tiles={footerTiles} size="var(--footer-tile)" tileMotion={(t) => sprout(t.row, t.col)} />
+            <TileCluster
+              tiles={footerTiles}
+              size="var(--footer-tile)"
+              build={(t) => ({ key: buildKey, delay: buildDelay(t) })}
+            />
           </div>
         </div>
 

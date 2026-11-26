@@ -20,6 +20,14 @@ export interface BauhausTileProps extends TileSpec {
   glitchKey?: number;
   /** Base glitch length in ms (each tile adds a little jitter so they land in a ripple). */
   glitchDuration?: number;
+  /**
+   * "Sketch to build" entrance (hero): the tile starts as a dashed wireframe,
+   * becomes a grey outline, then a coloured outline, then the solid tile.
+   * `key` 0 holds (or returns to) the wireframe, so it is in the prerendered
+   * HTML; any other value plays the build after `delay` ms. Takes precedence
+   * over `glitchKey`.
+   */
+  build?: { key: number; delay: number };
   /** Ignore the hero swatch colour override (used by the logo). */
   ignoreTheme?: boolean;
   className?: string;
@@ -38,6 +46,10 @@ function randomFrame(avoid: ShapeName[]): Frame {
 
 const GLITCH_STEPS = 3;
 
+/** Build stages: 0 dashed wireframe → 1 grey outline → 2 coloured outline → 3 solid. */
+type BuildStage = 0 | 1 | 2 | 3;
+const BUILD_STEP_MS = 320;
+
 /**
  * The "Bauhaus Tile" component — an 80×80 vector tile made of a shape, a
  * shape fill and a tile background, rotatable in 90° steps. Colours come from
@@ -52,6 +64,7 @@ function BauhausTileBase({
   flip = false,
   glitchKey,
   glitchDuration = 2400,
+  build,
   ignoreTheme = false,
   className,
   style,
@@ -64,6 +77,25 @@ function BauhausTileBase({
   // While glitching (and on the landing frame) changes swap instantly — no colour fade.
   const [instant, setInstant] = useState(false);
   const timer = useRef<number | undefined>(undefined);
+  const [stage, setStage] = useState<BuildStage>(build ? 0 : 3);
+
+  const buildKey = build?.key;
+  const buildDelay = build?.delay ?? 0;
+  useEffect(() => {
+    if (buildKey === undefined) return;
+    if (reduceMotion) {
+      setStage(3);
+      return;
+    }
+    if (!buildKey) {
+      setStage(0);
+      return;
+    }
+    const timers = ([1, 2, 3] as const).map((s, i) =>
+      window.setTimeout(() => setStage(s), buildDelay + i * BUILD_STEP_MS),
+    );
+    return () => timers.forEach(window.clearTimeout);
+  }, [buildKey, buildDelay, reduceMotion]);
 
   // Reduced motion: no glitch, just show the designed tile.
   useEffect(() => {
@@ -71,7 +103,7 @@ function BauhausTileBase({
   }, [reduceMotion]);
 
   useEffect(() => {
-    if (!glitchKey || reduceMotion) return;
+    if (!glitchKey || reduceMotion || build) return;
     // Blank → 3 different shapes → snap to the designed tile.
     const interval = glitchDuration / (GLITCH_STEPS + 1);
     const seen: ShapeName[] = [shape];
@@ -108,6 +140,27 @@ function BauhausTileBase({
   const current = frame ?? { shape, fill, bg };
   const shapeFill = themed ? accent : current.fill;
   const tileBg = themed ? "none" : current.bg;
+
+  if (build) {
+    return (
+      <svg
+        viewBox="0 0 80 80"
+        aria-hidden="true"
+        focusable="false"
+        data-stage={stage}
+        className={`bauhaus-tile tile-build block size-full overflow-visible ${className ?? ""}`}
+        style={{
+          transform: `rotate(${rotate}deg)${flip ? " scaleY(-1)" : ""}`,
+          ["--tb-color" as string]: tileColor(shapeFill),
+          ...style,
+        }}
+      >
+        <rect className="tb-bg" width="80" height="80" style={{ fill: tileColor(tileBg) }} />
+        <rect className="tb-cell" width="80" height="80" vectorEffect="non-scaling-stroke" />
+        <path className="tb-shape" d={SHAPES[shape]} vectorEffect="non-scaling-stroke" style={{ fill: tileColor(shapeFill) }} />
+      </svg>
+    );
+  }
 
   return (
     <svg

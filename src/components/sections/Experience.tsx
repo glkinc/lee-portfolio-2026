@@ -1,6 +1,6 @@
 import { motion, useReducedMotion, type Variants } from "motion/react";
 import type { ReactNode } from "react";
-import { TileCluster } from "../bauhaus/TileCluster";
+import { BuildOnView } from "../bauhaus/BuildOnView";
 import { experience, skills } from "../../data/site";
 import { experienceTiles } from "../../data/tiles";
 
@@ -33,9 +33,7 @@ export function Experience() {
       <div className="mx-auto flex w-full max-w-[1328px] flex-col gap-12 px-6 py-16 lg:gap-16 lg:py-20">
         {/* Heading with the 2 × 2 tile mark beside it (hidden on phones). */}
         <div className="flex items-center gap-12">
-          <div className="hidden shrink-0 md:block">
-            <TileCluster tiles={experienceTiles} size="80px" />
-          </div>
+          <BuildOnView tiles={experienceTiles} size="80px" className="hidden shrink-0 md:block" />
           <InView className="flex max-w-[612px] flex-col gap-4">
             <h2 id="experience-title" className="heading-xs text-text-accent">
               Experience

@@ -1,6 +1,6 @@
 import { motion, useReducedMotion, useScroll, useTransform } from "motion/react";
 import { useEffect, useRef, useState, type MouseEvent } from "react";
-import { TileCluster } from "../bauhaus/TileCluster";
+import { BuildOnView } from "../bauhaus/BuildOnView";
 import { AnimatedThumb } from "../ui/AnimatedThumb";
 import { Button, Pill } from "../ui/Button";
 import { caseStudies, caseStudyPath, type CaseStudy } from "../../data/caseStudies";
@@ -28,7 +28,7 @@ export function CaseStudies({ onOpen }: Props) {
               front-end know-how.
             </p>
           </div>
-          <TileCluster tiles={caseStudyTiles} className="hidden shrink-0 lg:grid" />
+          <BuildOnView tiles={caseStudyTiles} className="hidden shrink-0 lg:block" />
         </div>
 
         <CardStack reduce={!!reduce}>

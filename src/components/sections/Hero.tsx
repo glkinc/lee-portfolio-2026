@@ -1,6 +1,7 @@
 import { BauhausTile } from "../bauhaus/BauhausTile";
 import { TileCluster } from "../bauhaus/TileCluster";
 import { useGlitchOnMount } from "../bauhaus/useGlitchOnView";
+import type { PlacedTile } from "../bauhaus/shapes";
 import { MaskSlide, SplitText } from "../ui/Reveal";
 import { Swatches } from "../ui/Swatches";
 import { heroTiles } from "../../data/tiles";
@@ -10,13 +11,26 @@ import { site } from "../../data/site";
 const heroTopBand = heroTiles.filter((t) => t.row < 2);
 
 /**
+ * "Sketch to build" timing: each band sweeps diagonally from its top-left tile
+ * to its bottom-right one; the lower band (rows 7–9) follows a beat behind.
+ */
+const BUILD_STAGGER_MS = 90;
+const LOWER_BAND_LAG_MS = 280;
+const buildDelay = ({ col, row }: PlacedTile) => {
+  const lower = row >= 7;
+  return (col + (lower ? row - 7 : row)) * BUILD_STAGGER_MS + (lower ? LOWER_BAND_LAG_MS : 0);
+};
+
+/**
  * Hero. Desktop (≥1024) is the 16 × 10 tile grid from Figma, capped so its height never exceeds the viewport (the bottom tiles stay on screen): a tile band above
  * and below the name. Below that it's the mobile layout with the top band, name,
  * intro and swatches stacked. One DOM serves both so the heading and copy are
  * never duplicated.
  */
 export function Hero() {
-  const glitchKey = useGlitchOnMount();
+  // Fires once shortly after mount; the tiles hold their wireframe until then.
+  const buildKey = useGlitchOnMount(250);
+  const build = (t: PlacedTile) => ({ key: buildKey, delay: buildDelay(t) });
 
   return (
     <section
@@ -29,23 +43,25 @@ export function Hero() {
         <div aria-hidden="true" className="hero-grid-lines pointer-events-none absolute -z-10 hidden lg:block" />
 
         {/* Desktop: both bands on the grid. */}
-        {heroTiles.map(({ col, row, ...spec }) => (
-          <div
-            key={`${col}-${row}`}
-            aria-hidden="true"
-            className="hidden lg:block"
-            style={{ gridColumn: col + 1, gridRow: row + 1 }}
-          >
-            <BauhausTile {...spec} glitchKey={glitchKey} glitchDuration={2200} />
-          </div>
-        ))}
+        {heroTiles.map((tile) => {
+          const { col, row, ...spec } = tile;
+          return (
+            <div
+              key={`${col}-${row}`}
+              aria-hidden="true"
+              className="hidden lg:block"
+              style={{ gridColumn: col + 1, gridRow: row + 1 }}
+            >
+              <BauhausTile {...spec} build={build(tile)} />
+            </div>
+          );
+        })}
 
         {/* Mobile / tablet: top band, 6 tiles wide. */}
         <TileCluster
           tiles={heroTopBand}
           size="min(80px, calc((100cqw - 56px) / 6))"
-          glitchKey={glitchKey}
-          glitchDuration={2200}
+          build={build}
           className="lg:hidden"
         />
 

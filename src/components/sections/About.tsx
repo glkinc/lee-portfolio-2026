@@ -1,9 +1,9 @@
-import { ScrollFadeTiles } from "../bauhaus/ScrollFadeTiles";
+import { BuildOnView } from "../bauhaus/BuildOnView";
 import { aboutBand, aboutTiles } from "../../data/tiles";
 
 /**
  * About. Copy on the left; on the right a 6 × 10 pattern of quarter-circle
- * tiles that fades in as you scroll, in a random order that runs top to bottom.
+ * tiles that builds from wireframe to solid, top row first, when it comes into view.
  * On phones the pattern becomes an 8 × 2 band under the copy.
  */
 export function About() {
@@ -11,7 +11,13 @@ export function About() {
     <section id="about" aria-labelledby="about-title" className="bg-bg-page lg:pt-20">
       <div className="tile-grid relative mx-auto w-full max-w-[1328px] lg:px-6">
         {/* Desktop pattern, right-aligned on the 16-column grid. */}
-        <ScrollFadeTiles tiles={aboutTiles} className="absolute top-0 right-6 hidden lg:block" />
+        <BuildOnView
+          tiles={aboutTiles}
+          rowStagger={110}
+          colStagger={50}
+          amount={0.25}
+          className="absolute top-0 right-6 hidden lg:block"
+        />
 
         <div className="flex flex-col gap-4 px-6 py-12 lg:ml-[calc(var(--tile)*2)] lg:min-h-[calc(var(--tile)*10)] lg:w-[calc(var(--tile)*6)] lg:px-0 lg:pt-[var(--tile)] lg:pb-0">
           <h2 id="about-title" className="heading-xs text-text-accent">
@@ -39,7 +45,7 @@ export function About() {
 
       {/* Mobile / tablet pattern: 8 × 2, full width. */}
       <div className="tile-grid lg:hidden">
-        <ScrollFadeTiles tiles={aboutBand} size="calc(100cqw / 8)" />
+        <BuildOnView tiles={aboutBand} size="calc(100cqw / 8)" colStagger={60} />
       </div>
     </section>
   );

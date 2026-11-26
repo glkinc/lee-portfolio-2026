@@ -9,6 +9,8 @@ interface TileClusterProps {
   size?: string;
   glitchKey?: number;
   glitchDuration?: number;
+  /** "Sketch to build" entrance: per-tile build key + delay (see BauhausTile `build`). */
+  build?: (tile: PlacedTile) => { key: number; delay: number };
   ignoreTheme?: boolean;
   className?: string;
   style?: CSSProperties;
@@ -25,6 +27,7 @@ export function TileCluster({
   size = "var(--tile, 80px)",
   glitchKey,
   glitchDuration,
+  build,
   ignoreTheme,
   className,
   style,
@@ -55,6 +58,7 @@ export function TileCluster({
               {...spec}
               glitchKey={glitchKey}
               glitchDuration={glitchDuration}
+              build={build?.(t)}
               ignoreTheme={ignoreTheme}
             />
           </motion.div>

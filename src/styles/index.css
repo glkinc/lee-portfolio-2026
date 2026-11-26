@@ -244,6 +244,19 @@
   background-position: 100vw 3rem;
 }
 
+/* Footer background grid (desktop): same 1px tile grid, a shade darker for the grey footer.
+   Anchored to its box's left and bottom edges so the lines meet the plant tiles,
+   which sit in the bottom-right corner. The footer clips the overflow. */
+@utility footer-grid-lines {
+  --cell: calc(100cqw / 16);
+  inset: -100vh -100vw;
+  background-image:
+    linear-gradient(to right, var(--color-grey-200) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--color-grey-200) 1px, transparent 1px);
+  background-size: var(--cell) var(--cell);
+  background-position: left 100vw bottom 100vh;
+}
+
 @layer base {
   html {
     scroll-behavior: auto;
@@ -289,6 +302,49 @@
 .bauhaus-tile path,
 .bauhaus-tile rect {
   transition: fill 0.35s ease;
+}
+/* Hero "sketch to build": wireframe → outline → coloured outline → solid (see BauhausTile `build`). */
+.tile-build .tb-bg {
+  fill-opacity: 0;
+  transition: fill 0.35s ease, fill-opacity 0.45s ease;
+}
+.tile-build .tb-cell {
+  fill: none;
+  stroke: var(--color-grey-300);
+  stroke-width: 1;
+  stroke-dasharray: 4 4;
+  transition: stroke 0.3s ease, stroke-opacity 0.45s ease;
+}
+.tile-build .tb-shape {
+  fill-opacity: 0;
+  stroke: var(--color-grey-300);
+  stroke-width: 1.5;
+  stroke-dasharray: 4 4;
+  transition: fill 0.35s ease, fill-opacity 0.45s ease, stroke 0.3s ease, stroke-opacity 0.45s ease;
+}
+.tile-build[data-stage="1"] .tb-cell,
+.tile-build[data-stage="2"] .tb-cell {
+  stroke: var(--color-grey-200);
+  stroke-dasharray: none;
+}
+.tile-build[data-stage="1"] .tb-shape {
+  stroke: var(--color-grey-400);
+  stroke-dasharray: none;
+}
+.tile-build[data-stage="2"] .tb-shape {
+  stroke: var(--tb-color);
+  stroke-width: 2;
+  stroke-dasharray: none;
+}
+.tile-build[data-stage="3"] .tb-bg,
+.tile-build[data-stage="3"] .tb-shape {
+  fill-opacity: 1;
+}
+.tile-build[data-stage="3"] .tb-shape,
+.tile-build[data-stage="3"] .tb-cell {
+  stroke: var(--tb-color);
+  stroke-opacity: 0;
+  stroke-dasharray: none;
 }
 .bauhaus-tile--instant path,
 .bauhaus-tile--instant rect {

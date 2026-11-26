@@ -8,8 +8,10 @@
     <meta name="author" content="Lee Travaglini" />
     <!-- Private preview: keep out of search engines. Restore "index, follow, max-image-preview:large" at launch. -->
     <meta name="robots" content="noindex, nofollow, noarchive, noimageindex" />
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <!-- PNG first, SVG last: Firefox uses the last icon listed, Chrome prefers the SVG over a sized PNG.
+         The SVG switches its dark leaf to white in dark mode; Safari only reads the PNGs. -->
     <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/site.webmanifest" />
     <link rel="alternate" type="text/plain" href="%BASE_URL%llms.txt" title="LLM-readable summary" />
