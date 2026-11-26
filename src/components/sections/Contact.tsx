@@ -40,11 +40,12 @@ export function Contact() {
   useEffect(() => setYear(new Date().getFullYear()), []);
 
   return (
-    <footer id="contact" aria-labelledby="contact-title" className="overflow-clip bg-bg-page lg:bg-bg-subtle">
+    <footer id="contact" aria-labelledby="contact-title" className="isolate overflow-clip bg-bg-page lg:bg-bg-subtle">
       <div className="tile-grid mx-auto flex w-full max-w-[1328px] flex-col gap-12 px-6 pt-12 pb-6 lg:pt-20 lg:pb-12">
         {/* Heading + email, socials, and the plant. Phones: socials sit beside the plant. */}
-        <div className="grid grid-cols-[1fr_auto] gap-x-6 gap-y-6 lg:relative lg:isolate lg:min-h-[calc(var(--tile)*4)] lg:grid-rows-[1fr_auto]">
-          {/* Desktop: faint tile grid behind the footer, lined up with the plant. */}
+        <div className="grid grid-cols-[1fr_auto] gap-x-6 gap-y-6 lg:relative lg:min-h-[calc(var(--tile)*4)] lg:grid-rows-[1fr_auto]">
+          {/* Desktop: faint tile grid behind the footer, lined up with the plant. Positioned from this box but
+              layered in the footer's stacking context (`isolate` on <footer>), so it sits behind all footer content. */}
           <div aria-hidden="true" className="footer-grid-lines pointer-events-none absolute -z-10 hidden lg:block" />
 
           <div className="col-span-2 flex flex-col gap-6 lg:col-span-1 lg:row-start-1">
