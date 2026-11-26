@@ -26,6 +26,21 @@
         "--strictPort"
       ],
       "port": 4173
+    },
+    {
+      "name": "pages-preview",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "preview",
+        "--",
+        "--base",
+        "/lee-portfolio-2026/",
+        "--port",
+        "4174",
+        "--strictPort"
+      ],
+      "port": 4174
     }
   ]
 }

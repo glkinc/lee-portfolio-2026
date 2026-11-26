@@ -4,6 +4,7 @@ import { Button, Pill } from "../ui/Button";
 import { CloseButton } from "../ui/CloseButton";
 import { CaseMedia } from "./CaseMedia";
 import { caseStudyPath, getCaseStudy, nextCaseStudy, type CaseImage, type CaseStudy } from "../../data/caseStudies";
+import { withBase } from "../../lib/base";
 
 const ease = [0.16, 1, 0.3, 1] as const;
 
@@ -119,7 +120,7 @@ export function CaseStudyOverlay({ slug, onClose, onNext }: Props) {
               />
             </h2>
           </div>
-          <Button href={caseStudyPath(next.slug)} onClick={goNext}>
+          <Button href={withBase(caseStudyPath(next.slug))} onClick={goNext}>
             {`View ${next.name} case study`}
           </Button>
           </div>

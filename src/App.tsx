@@ -1,5 +1,6 @@
 import { BackToTop } from "./components/layout/BackToTop";
 import { scrollToElement } from "./lib/scrollToElement";
+import { withBase } from "./lib/base";
 import { AnimatePresence, MotionConfig } from "motion/react";
 import { useCallback, useEffect, useRef } from "react";
 import { TileThemeProvider } from "./components/bauhaus/TileTheme";
@@ -71,7 +72,7 @@ export function App({ initialRoute }: { initialRoute: Route }) {
       if (openSlug) navigate({ name: "home" }, { replace: true });
       const el = document.getElementById(id);
       if (!el) return;
-      window.history.replaceState({}, "", `/#${id}`);
+      window.history.replaceState({}, "", withBase(`/#${id}`));
       const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
       requestAnimationFrame(() => scrollToElement(el, reduce));
       // Move focus with the scroll so keyboard/screen-reader users land in the section.

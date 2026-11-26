@@ -4,6 +4,7 @@ import { TileCluster } from "../bauhaus/TileCluster";
 import { AnimatedThumb } from "../ui/AnimatedThumb";
 import { Button, Pill } from "../ui/Button";
 import { caseStudies, caseStudyPath, type CaseStudy } from "../../data/caseStudies";
+import { withBase } from "../../lib/base";
 import { caseStudyTiles } from "../../data/tiles";
 
 interface Props {
@@ -105,7 +106,7 @@ function CaseStudyCard({
   const hoverProps = (set: (v: boolean) => void) =>
     cs.thumb.animated ? { onPointerEnter: () => set(true), onPointerLeave: () => set(false) } : {};
 
-  const href = caseStudyPath(cs.slug);
+  const href = withBase(caseStudyPath(cs.slug));
   const open = (e: MouseEvent<HTMLElement>) => {
     if (e.metaKey || e.ctrlKey || e.shiftKey || e.button === 1) return; // allow new-tab
     e.preventDefault();

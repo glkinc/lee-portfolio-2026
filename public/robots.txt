@@ -1,14 +1,4 @@
+# Private preview: block all crawlers (including AI crawlers) for now.
+# At launch, restore the open policy and the Sitemap line.
 User-agent: *
-Allow: /
-
-# AI / answer-engine crawlers are welcome to read and cite this site.
-User-agent: GPTBot
-Allow: /
-User-agent: ClaudeBot
-Allow: /
-User-agent: PerplexityBot
-Allow: /
-User-agent: Google-Extended
-Allow: /
-
-Sitemap: https://leetravaglini.com/sitemap.xml
+Disallow: /

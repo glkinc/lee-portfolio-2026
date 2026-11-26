@@ -5,6 +5,7 @@ import { TileCluster } from "../bauhaus/TileCluster";
 import { menuTiles } from "../../data/tiles";
 import { sections, site, type SectionId } from "../../data/site";
 import { lockScroll, unlockScroll } from "../../lib/scrollLock";
+import { withBase } from "../../lib/base";
 
 // Resolved token values (colour/blue/500 etc.) — Motion can only tween real
 // colours, not var() references, and the pill blends between them.
@@ -121,7 +122,7 @@ export function Header({ active, onNavigate }: HeaderProps) {
                     />
                   )}
                   <motion.a
-                    href={`/#${s.id}`}
+                    href={withBase(`/#${s.id}`)}
                     onClick={(e) => go(e, s.id)}
                     onMouseEnter={() => setHovered(s.id)}
                     onFocus={() => setHovered(s.id)}
@@ -168,7 +169,7 @@ export function Header({ active, onNavigate }: HeaderProps) {
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: 0.25 + i * 0.07, duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
                   >
-                    <a href={`/#${s.id}`} onClick={(e) => go(e, s.id)} className="group flex items-center gap-4 py-4">
+                    <a href={withBase(`/#${s.id}`)} onClick={(e) => go(e, s.id)} className="group flex items-center gap-4 py-4">
                       <span className="body-sm w-6" aria-hidden="true">
                         {String(i + 1).padStart(2, "0")}
                       </span>

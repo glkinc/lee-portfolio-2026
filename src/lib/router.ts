@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 import { caseStudyPath, getCaseStudy } from "../data/caseStudies";
+import { stripBase, withBase } from "./base";
 
 /**
  * Minimal history-based routing. The site is a single page; each case study
@@ -9,7 +10,7 @@ import { caseStudyPath, getCaseStudy } from "../data/caseStudies";
 export type Route = { name: "home" } | { name: "case-study"; slug: string };
 
 export function parseRoute(pathname: string): Route {
-  const m = pathname.match(/^\/case-studies\/([a-z0-9-]+)\/?$/);
+  const m = stripBase(pathname).match(/^\/case-studies\/([a-z0-9-]+)\/?$/);
   if (m && getCaseStudy(m[1])) return { name: "case-study", slug: m[1] };
   return { name: "home" };
 }
@@ -26,7 +27,7 @@ export function useRouter(initial: Route) {
   }, []);
 
   const navigate = useCallback((next: Route, { replace = false } = {}) => {
-    const path = routePath(next);
+    const path = withBase(routePath(next));
     if (path !== window.location.pathname) {
       const hash = next.name === "home" ? window.location.hash : "";
       window.history[replace ? "replaceState" : "pushState"]({}, "", path + hash);
