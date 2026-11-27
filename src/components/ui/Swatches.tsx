@@ -44,8 +44,8 @@ export function Swatches({ className }: { className?: string }) {
             tabIndex={checked ? 0 : -1}
             onClick={() => setAccent(o.value)}
             onKeyDown={(e) => onKeyDown(e, i)}
-            // Row on small screens starts with the grey "original" swatch; in the large-screen column it comes last.
-            className={`relative grid size-(--swatch,56px) shrink-0 place-items-center rounded-full ${i === 0 ? "lg:order-last" : ""}`}
+            // The grey "original" swatch comes first: left of the row on small screens, top of the column on large ones.
+            className="relative grid size-(--swatch,56px) shrink-0 place-items-center rounded-full"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >

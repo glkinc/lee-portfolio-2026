@@ -28,8 +28,7 @@ const buildDelay = ({ col, row }: PlacedTile) => (plantRows - 1 - row) * ROW_STA
 /**
  * Contact / footer. The leaf "plant" builds from wireframe to solid tiles,
  * bottom row first, once it's on screen; it drops back to the wireframe when
- * you leave so it rebuilds on return. A faint tile grid sits behind it: grey
- * footer on desktop, white on phones.
+ * you leave so it rebuilds on return. Grey, with a faint tile grid behind it.
  */
 export function Contact() {
   const plantRef = useRef<HTMLDivElement>(null);
@@ -40,10 +39,10 @@ export function Contact() {
   useEffect(() => setYear(new Date().getFullYear()), []);
 
   return (
-    <footer id="contact" aria-labelledby="contact-title" className="isolate overflow-clip bg-bg-page lg:bg-bg-subtle">
+    <footer id="contact" aria-labelledby="contact-title" className="isolate overflow-clip bg-bg-subtle">
       <div className="tile-grid mx-auto flex w-full max-w-[1328px] flex-col gap-12 px-6 pt-12 pb-6 lg:pt-20 lg:pb-12">
         {/* Heading + email, socials, and the plant. Phones: socials sit beside the plant. */}
-        <div className="relative grid grid-cols-[1fr_auto] gap-x-6 gap-y-6 [--footer-line:var(--color-grey-100)] [--footer-tile:51px] lg:min-h-[calc(var(--tile)*4)] lg:grid-rows-[1fr_auto] lg:[--footer-line:var(--color-grey-200)] lg:[--footer-tile:var(--tile)]">
+        <div className="relative grid grid-cols-[1fr_auto] gap-x-6 gap-y-6 [--footer-tile:51px] lg:min-h-[calc(var(--tile)*4)] lg:grid-rows-[1fr_auto] lg:[--footer-tile:var(--tile)]">
           {/* Faint tile grid behind the footer, one line per plant tile, lined up with the plant. Positioned from this box but
               layered in the footer's stacking context (`isolate` on <footer>), so it sits behind all footer content. */}
           <div aria-hidden="true" className="footer-grid-lines pointer-events-none absolute -z-10" />
