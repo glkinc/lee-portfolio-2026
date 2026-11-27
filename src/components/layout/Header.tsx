@@ -97,7 +97,7 @@ export function Header({ active, onNavigate }: HeaderProps) {
   return (
     <header className="pointer-events-none fixed inset-x-0 top-0 z-50">
       <motion.div
-        className="mx-auto flex w-full max-w-[1328px] items-center justify-between px-6 pt-4 md:pt-(--nav-top)"
+        className="mx-auto flex w-full max-w-[1328px] items-center justify-between px-4 pt-4 md:px-6 md:pt-(--nav-top)"
         style={{ "--nav-top": navTop } as never}
       >
         {/* Logo: appears once the hero scrolls away; takes you back to the top. */}
