@@ -28,8 +28,8 @@ const buildDelay = ({ col, row }: PlacedTile) => (plantRows - 1 - row) * ROW_STA
 /**
  * Contact / footer. The leaf "plant" builds from wireframe to solid tiles,
  * bottom row first, once it's on screen; it drops back to the wireframe when
- * you leave so it rebuilds on return. Grey with a faint tile grid on desktop,
- * white on phones.
+ * you leave so it rebuilds on return. A faint tile grid sits behind it: grey
+ * footer on desktop, white on phones.
  */
 export function Contact() {
   const plantRef = useRef<HTMLDivElement>(null);
@@ -43,10 +43,10 @@ export function Contact() {
     <footer id="contact" aria-labelledby="contact-title" className="isolate overflow-clip bg-bg-page lg:bg-bg-subtle">
       <div className="tile-grid mx-auto flex w-full max-w-[1328px] flex-col gap-12 px-6 pt-12 pb-6 lg:pt-20 lg:pb-12">
         {/* Heading + email, socials, and the plant. Phones: socials sit beside the plant. */}
-        <div className="grid grid-cols-[1fr_auto] gap-x-6 gap-y-6 lg:relative lg:min-h-[calc(var(--tile)*4)] lg:grid-rows-[1fr_auto]">
-          {/* Desktop: faint tile grid behind the footer, lined up with the plant. Positioned from this box but
+        <div className="relative grid grid-cols-[1fr_auto] gap-x-6 gap-y-6 [--footer-line:var(--color-grey-100)] [--footer-tile:51px] lg:min-h-[calc(var(--tile)*4)] lg:grid-rows-[1fr_auto] lg:[--footer-line:var(--color-grey-200)] lg:[--footer-tile:var(--tile)]">
+          {/* Faint tile grid behind the footer, one line per plant tile, lined up with the plant. Positioned from this box but
               layered in the footer's stacking context (`isolate` on <footer>), so it sits behind all footer content. */}
-          <div aria-hidden="true" className="footer-grid-lines pointer-events-none absolute -z-10 hidden lg:block" />
+          <div aria-hidden="true" className="footer-grid-lines pointer-events-none absolute -z-10" />
 
           <div className="col-span-2 flex flex-col gap-6 lg:col-span-1 lg:row-start-1">
             <div className="flex flex-col gap-4">
@@ -82,7 +82,7 @@ export function Contact() {
 
           <div
             ref={plantRef}
-            className="col-start-2 row-start-2 self-end [--footer-tile:51px] lg:row-span-2 lg:row-start-1 lg:[--footer-tile:var(--tile)]"
+            className="col-start-2 row-start-2 self-end lg:row-span-2 lg:row-start-1"
           >
             <TileCluster
               tiles={footerTiles}

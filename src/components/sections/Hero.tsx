@@ -36,9 +36,12 @@ export function Hero() {
     <section
       id="top"
       aria-labelledby="hero-title"
-      className="tile-grid relative mx-auto w-full max-w-[1328px] pt-20 lg:px-6 lg:py-12"
+      className="tile-grid relative isolate mx-auto w-full max-w-[1328px] [--hero-m-tile:min(80px,calc((100cqw-56px)/6))] lg:px-6 lg:py-12"
     >
       <div className="flex flex-col gap-6 px-6 pb-6 lg:relative lg:isolate lg:mx-auto lg:grid lg:w-full lg:max-w-[max(720px,calc((100svh-6rem)*1.6))] lg:[container-type:inline-size] lg:aspect-[8/5] lg:grid-cols-16 lg:grid-rows-10 lg:gap-0 lg:p-0">
+        {/* Mobile / tablet: the same faint grid, one line per top-band tile, starting at the band's top-left corner. */}
+        <div aria-hidden="true" className="hero-grid-lines-mobile pointer-events-none absolute inset-0 -z-10 lg:hidden" />
+
         {/* Desktop: faint grid lines on the tile grid, carried out to the page edges and into the section padding. */}
         <div aria-hidden="true" className="hero-grid-lines pointer-events-none absolute -z-10 hidden lg:block" />
 
@@ -60,7 +63,7 @@ export function Hero() {
         {/* Mobile / tablet: top band, 6 tiles wide. */}
         <TileCluster
           tiles={heroTopBand}
-          size="min(80px, calc((100cqw - 56px) / 6))"
+          size="var(--hero-m-tile)"
           build={build}
           className="lg:hidden"
         />
@@ -72,7 +75,7 @@ export function Hero() {
             <span className="sr-only"> — product designer and creative generalist</span>
           </h1>
           <MaskSlide delay={0.55}>
-            <p className="body-xl text-text-accent lg:text-text-primary">{site.tagline}</p>
+            <p className="body-xl text-text-primary">{site.tagline}</p>
           </MaskSlide>
         </div>
 

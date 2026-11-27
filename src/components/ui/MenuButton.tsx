@@ -6,7 +6,8 @@ const spring = { type: "spring", stiffness: 420, damping: 30 } as const;
 /**
  * Round menu button (Figma "icon-menu") that morphs into the close "X" of the
  * mobile menu: the bars rotate into a cross, lengthen, and flip from dark to
- * white while the white fill and drop shadow fade away over the dark menu.
+ * white while the white fill and drop shadow (matching the desktop nav pill)
+ * fade away over the dark menu.
  */
 export const MenuButton = forwardRef<HTMLButtonElement, { open: boolean; onToggle: () => void; controls: string }>(
   function MenuButton({ open, onToggle, controls }, ref) {
@@ -20,10 +21,9 @@ export const MenuButton = forwardRef<HTMLButtonElement, { open: boolean; onToggl
         aria-expanded={open}
         aria-controls={controls}
         aria-label={open ? "Close menu" : "Open menu"}
-        className="relative z-20 flex size-12 items-center justify-center rounded-full border-[1.5px]"
+        className="relative z-20 flex size-12 items-center justify-center rounded-full"
         initial={false}
         animate={{
-          borderColor: color,
           rotate: open ? 90 : 0,
           backgroundColor: open ? "rgba(255,255,255,0)" : "rgba(255,255,255,1)",
           boxShadow: open ? "0 0 4px rgba(0,0,0,0)" : "0 0 4px rgba(0,0,0,0.25)",

@@ -244,17 +244,27 @@
   background-position: 100vw 3rem;
 }
 
-/* Footer background grid (desktop): same 1px tile grid, a shade darker for the grey footer.
-   Anchored to its box's left and bottom edges so the lines meet the plant tiles,
-   which sit in the bottom-right corner. The footer clips the overflow. */
+/* Hero background grid (mobile / tablet): one cell per top-band tile, starting at
+   the band's top-left corner (the 24px side padding). Covers the whole hero. */
+@utility hero-grid-lines-mobile {
+  background-image:
+    linear-gradient(to right, var(--color-grey-100) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--color-grey-100) 1px, transparent 1px);
+  background-size: var(--hero-m-tile) var(--hero-m-tile);
+  background-position: 24px 0;
+}
+
+/* Footer background grid: same 1px tile grid, one cell per plant tile (--footer-tile),
+   grey-100 on the white phone footer and a shade darker (grey-200) on the grey
+   desktop one (--footer-line). Anchored to its box's right and bottom edges so the
+   lines meet the plant tiles in that corner. The footer clips the overflow. */
 @utility footer-grid-lines {
-  --cell: calc(100cqw / 16);
   inset: -100vh -100vw;
   background-image:
-    linear-gradient(to right, var(--color-grey-200) 1px, transparent 1px),
-    linear-gradient(to bottom, var(--color-grey-200) 1px, transparent 1px);
-  background-size: var(--cell) var(--cell);
-  background-position: left 100vw bottom 100vh;
+    linear-gradient(to right, var(--footer-line) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--footer-line) 1px, transparent 1px);
+  background-size: var(--footer-tile) var(--footer-tile);
+  background-position: right 100vw bottom 100vh;
 }
 
 @layer base {
