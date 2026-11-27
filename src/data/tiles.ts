@@ -50,12 +50,12 @@ export const heroTiles: PlacedTile[] = [
   { col: 5, row: 9, shape: "Leaf", fill: "yellow", rotate: 180 },
 ];
 
-/* ── Case studies heading cluster (2 × 2, top-right) ───────── */
+/* ── Case studies heading cluster (2 × 2, left of the heading) ─ */
 export const caseStudyTiles: PlacedTile[] = [
-  { col: 0, row: 0, shape: "Leaf", fill: "red" },
-  { col: 1, row: 0, shape: "Leaf", fill: "yellow", rotate: 180, flip: true },
-  { col: 0, row: 1, shape: "Leaf", fill: "blue", rotate: 180, flip: true },
-  { col: 1, row: 1, shape: "Leaf", fill: "dark", rotate: 180 },
+  { col: 0, row: 0, shape: "Triangle", fill: "red", rotate: 180, flip: true },
+  { col: 1, row: 0, shape: "Triangle", fill: "yellow", rotate: 180, flip: true },
+  { col: 0, row: 1, shape: "Triangle", fill: "blue", rotate: 180, flip: true },
+  { col: 1, row: 1, shape: "Triangle", fill: "dark", rotate: 180, flip: true },
 ];
 
 /* ── About ──────────────────────────────────────────────────── */
@@ -168,4 +168,12 @@ export const menuTiles: PlacedTile[] = [
   { col: 1, row: 0, shape: "Leaf", fill: "yellow", rotate: 180, flip: true },
   { col: 0, row: 1, shape: "Leaf", fill: "blue", rotate: 180, flip: true },
   { col: 1, row: 1, shape: "Leaf", fill: "white", rotate: 180 },
+];
+
+/* ── Scroll logo (2 × 2 leaves — the four-point mark) ──────── */
+export const logoTiles: PlacedTile[] = [
+  { col: 0, row: 0, shape: "Leaf", fill: "red" },
+  { col: 1, row: 0, shape: "Leaf", fill: "yellow", rotate: 180, flip: true },
+  { col: 0, row: 1, shape: "Leaf", fill: "blue", rotate: 180, flip: true },
+  { col: 1, row: 1, shape: "Leaf", fill: "dark", rotate: 180 },
 ];

@@ -49,11 +49,16 @@ export function Contact() {
           <div aria-hidden="true" className="footer-grid-lines pointer-events-none absolute -z-10 hidden lg:block" />
 
           <div className="col-span-2 flex flex-col gap-6 lg:col-span-1 lg:row-start-1">
-            <h2 id="contact-title" className="heading-lg max-w-[607px]">
-              Have an idea?
-              <br />
-              I’d love to help build it.
-            </h2>
+            <div className="flex flex-col gap-4">
+              <h2 id="contact-title" className="heading-xs text-text-accent">
+                Contact
+              </h2>
+              <p className="heading-lg max-w-[607px]">
+                Have an idea?
+                <br />
+                I’d love to help build it.
+              </p>
+            </div>
             <Button href={`mailto:${site.email}`} arrow className="w-fit" aria-label={`Get in touch: email ${site.email}`}>
               Get in touch
             </Button>

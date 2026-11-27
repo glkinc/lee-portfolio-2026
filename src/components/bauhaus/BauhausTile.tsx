@@ -27,7 +27,17 @@ export interface BauhausTileProps extends TileSpec {
    * HTML; any other value plays the build after `delay` ms. Takes precedence
    * over `glitchKey`.
    */
-  build?: { key: number; delay: number };
+  build?: {
+    key: number;
+    delay: number;
+    /**
+     * "Shine": from the solid tile, play the build backwards to the dashed
+     * wireframe and straight forward again to solid. `key` still triggers it.
+     */
+    rewind?: boolean;
+    /** ms per stage (default BUILD_STEP_MS). */
+    step?: number;
+  };
   /** Ignore the hero swatch colour override (used by the logo). */
   ignoreTheme?: boolean;
   className?: string;
@@ -81,6 +91,8 @@ function BauhausTileBase({
 
   const buildKey = build?.key;
   const buildDelay = build?.delay ?? 0;
+  const buildRewind = !!build?.rewind;
+  const buildStep = build?.step ?? BUILD_STEP_MS;
   useEffect(() => {
     if (buildKey === undefined) return;
     if (reduceMotion) {
@@ -91,11 +103,12 @@ function BauhausTileBase({
       setStage(0);
       return;
     }
-    const timers = ([1, 2, 3] as const).map((s, i) =>
-      window.setTimeout(() => setStage(s), buildDelay + i * BUILD_STEP_MS),
+    const stages: BuildStage[] = buildRewind ? [2, 1, 0, 1, 2, 3] : [1, 2, 3];
+    const timers = stages.map((s, i) =>
+      window.setTimeout(() => setStage(s), buildDelay + i * buildStep),
     );
     return () => timers.forEach(window.clearTimeout);
-  }, [buildKey, buildDelay, reduceMotion]);
+  }, [buildKey, buildDelay, buildRewind, buildStep, reduceMotion]);
 
   // Reduced motion: no glitch, just show the designed tile.
   useEffect(() => {

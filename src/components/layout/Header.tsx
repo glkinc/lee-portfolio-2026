@@ -1,6 +1,7 @@
 import { AnimatePresence, motion, useReducedMotion, useScroll, useTransform } from "motion/react";
 import { useEffect, useRef, useState, type MouseEvent } from "react";
 import { MenuButton } from "../ui/MenuButton";
+import { ScrollLogo } from "./ScrollLogo";
 import { TileCluster } from "../bauhaus/TileCluster";
 import { menuTiles } from "../../data/tiles";
 import { sections, site, type SectionId } from "../../data/site";
@@ -25,9 +26,10 @@ interface HeaderProps {
 }
 
 /**
- * Floating navigation: no bar, no logo — a white pill with a soft drop shadow
+ * Floating navigation: no bar — a white pill with a soft drop shadow
  * on desktop/tablet and a round menu button on phones. It sits at the hero's
- * top margin and eases up toward the edge once you scroll.
+ * top margin and eases up toward the edge once you scroll. The logo pill
+ * (ScrollLogo) joins it on the left once the hero has scrolled away.
  */
 export function Header({ active, onNavigate }: HeaderProps) {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -95,9 +97,12 @@ export function Header({ active, onNavigate }: HeaderProps) {
   return (
     <header className="pointer-events-none fixed inset-x-0 top-0 z-50">
       <motion.div
-        className="mx-auto flex w-full max-w-[1328px] justify-end px-6 pt-4 md:pt-(--nav-top)"
+        className="mx-auto flex w-full max-w-[1328px] items-center justify-between px-6 pt-4 md:pt-(--nav-top)"
         style={{ "--nav-top": navTop } as never}
       >
+        {/* Logo: appears once the hero scrolls away; takes you back to the top. */}
+        <ScrollLogo />
+
         {/* Desktop / tablet navigation */}
         <nav aria-label="Primary" className="pointer-events-auto hidden md:block">
           <ul

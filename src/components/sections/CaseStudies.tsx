@@ -17,18 +17,20 @@ export function CaseStudies({ onOpen }: Props) {
   return (
     <section id="case-studies" aria-labelledby="case-studies-title" className="bg-bg-subtle text-text-primary">
       <div className="tile-grid mx-auto w-full max-w-[1328px] px-6 py-16 lg:py-20">
-        <div className="flex items-start justify-between gap-6">
+        {/* 2 × 2 tile mark on the left, one empty grid column, then the heading (8 columns). */}
+        <div className="flex items-start gap-(--tile)">
+          <BuildOnView tiles={caseStudyTiles} className="hidden shrink-0 lg:block" />
           <div className="flex max-w-[640px] flex-col gap-4">
-            <h2 id="case-studies-title" className="heading-lg">
+            <h2 id="case-studies-title" className="heading-xs text-text-accent">
               Case studies
             </h2>
+            <p className="heading-lg">Design systems, products and things I've made</p>
             <p className="body-md">
               Selected case studies in UX, UI and design systems for brands including Priceline and BMO (Blue Rewards). I
               design scalable, consistent product experiences, connecting strategy, interaction and visual design with
               front-end know-how.
             </p>
           </div>
-          <BuildOnView tiles={caseStudyTiles} className="hidden shrink-0 lg:block" />
         </div>
 
         <CardStack reduce={!!reduce}>

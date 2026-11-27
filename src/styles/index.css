@@ -340,6 +340,9 @@
 .tile-build[data-stage="3"] .tb-shape {
   fill-opacity: 1;
 }
+.build-shape-only .tb-cell {
+  display: none; /* section clusters: draw the shape only, no tile square */
+}
 .tile-build[data-stage="3"] .tb-shape,
 .tile-build[data-stage="3"] .tb-cell {
   stroke: var(--tb-color);

@@ -38,7 +38,8 @@ interface BuildOnViewProps {
 
 /**
  * A tile cluster that builds from dashed wireframe to solid tiles, row by
- * row, when it scrolls into view.
+ * row, when it scrolls into view. Only the shape is sketched (no tile
+ * square), unlike the hero and footer.
  */
 export function BuildOnView({
   tiles,
@@ -56,7 +57,7 @@ export function BuildOnView({
     (direction === "down" ? row : lastRow - row) * rowStagger + col * colStagger;
 
   return (
-    <div ref={ref} className={className}>
+    <div ref={ref} className={`build-shape-only ${className ?? ""}`}>
       <TileCluster tiles={tiles} size={size} build={(t) => ({ key, delay: delay(t) })} />
     </div>
   );

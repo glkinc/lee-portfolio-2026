@@ -1,4 +1,3 @@
-import { BackToTop } from "./components/layout/BackToTop";
 import { scrollToElement } from "./lib/scrollToElement";
 import { withBase } from "./lib/base";
 import { AnimatePresence, MotionConfig } from "motion/react";
@@ -93,7 +92,6 @@ export function App({ initialRoute }: { initialRoute: Route }) {
           </a>
           <div inert={!!openSlug}>
             <Header active={active} onNavigate={goToSection} />
-            <BackToTop />
             <main id="main" tabIndex={-1} className="overflow-x-clip outline-none">
               <Hero />
               <CaseStudies onOpen={openCaseStudy} />
